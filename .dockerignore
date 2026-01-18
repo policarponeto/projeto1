@@ -1,0 +1,10 @@
+vendor/
+writable/logs/
+.env
+.DS_Store
+.git
+.gitignore
+README.md
+docker-compose.yml
+Dockerfile
+.dockerignore

@@ -1,0 +1,173 @@
+ERROR - 2026-01-17 11:49:11 --> mysqli_sql_exception: Unknown column 'de' in 'field list' in D:\_VPS\projeto1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\_VPS\projeto1\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 D:\_VPS\projeto1\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\_VPS\projeto1\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\_VPS\projeto1\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+#4 D:\_VPS\projeto1\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\_VPS\projeto1\system\BaseModel.php(838): CodeIgniter\Model->doInsert()
+#6 D:\_VPS\projeto1\system\Model.php(797): CodeIgniter\BaseModel->insert()
+#7 D:\_VPS\projeto1\app\Models\TransacoesModel.php(53): CodeIgniter\Model->insert()
+#8 D:\_VPS\projeto1\app\Controllers\Transacoes.php(81): App\Models\TransacoesModel->createTransaction()
+#9 D:\_VPS\projeto1\system\CodeIgniter.php(933): App\Controllers\Transacoes->criar()
+#10 D:\_VPS\projeto1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#11 D:\_VPS\projeto1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#12 D:\_VPS\projeto1\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 D:\_VPS\projeto1\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#14 D:\_VPS\projeto1\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#15 D:\_VPS\projeto1\system\rewrite.php(44): require_once('...')
+#16 {main}
+CRITICAL - 2026-01-17 12:47:54 --> ParseError: syntax error, unexpected token "catch", expecting "function"
+[Method: GET, Route: transacoes/criar]
+in APPPATH\Models\TransacoesModel.php on line 63.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH\Controllers\Transacoes.php(20): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transacoes->criar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\_VPS\\projeto1\\public\\index.php')
+CRITICAL - 2026-01-17 12:48:18 --> ParseError: Unclosed '{' on line 8
+[Method: GET, Route: transacoes/criar]
+in APPPATH\Models\TransacoesModel.php on line 75.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH\Controllers\Transacoes.php(20): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transacoes->criar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\_VPS\\projeto1\\public\\index.php')
+CRITICAL - 2026-01-17 12:48:20 --> ParseError: Unclosed '{' on line 8
+[Method: GET, Route: transacoes/criar]
+in APPPATH\Models\TransacoesModel.php on line 75.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH\Controllers\Transacoes.php(20): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transacoes->criar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\_VPS\\projeto1\\public\\index.php')
+CRITICAL - 2026-01-17 12:48:37 --> ArgumentCountError: Too few arguments to function App\Models\TransacoesModel::transferirSaldo(), 2 passed in D:\_VPS\projeto1\app\Controllers\Transacoes.php on line 86 and exactly 3 expected
+[Method: GET, Route: transacoes/criar]
+in APPPATH\Models\TransacoesModel.php on line 55.
+ 1 APPPATH\Controllers\Transacoes.php(86): App\Models\TransacoesModel->transferirSaldo()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transacoes->criar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\_VPS\\projeto1\\public\\index.php')
+CRITICAL - 2026-01-17 12:49:13 --> ArgumentCountError: Too few arguments to function App\Models\TransacoesModel::transferirSaldo(), 2 passed in D:\_VPS\projeto1\app\Controllers\Transacoes.php on line 86 and exactly 3 expected
+[Method: GET, Route: transacoes/criar]
+in APPPATH\Models\TransacoesModel.php on line 55.
+ 1 APPPATH\Controllers\Transacoes.php(86): App\Models\TransacoesModel->transferirSaldo()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transacoes->criar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\_VPS\\projeto1\\public\\index.php')
+ERROR - 2026-01-17 12:56:51 --> mysqli_sql_exception: Unknown column 'saldo' in 'field list' in D:\_VPS\projeto1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\_VPS\projeto1\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 D:\_VPS\projeto1\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\_VPS\projeto1\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\_VPS\projeto1\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query()
+#4 D:\_VPS\projeto1\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\_VPS\projeto1\system\BaseModel.php(1010): CodeIgniter\Model->doUpdate()
+#6 D:\_VPS\projeto1\system\Model.php(860): CodeIgniter\BaseModel->update()
+#7 D:\_VPS\projeto1\app\Models\TransacoesModel.php(64): CodeIgniter\Model->update()
+#8 D:\_VPS\projeto1\app\Controllers\Transacoes.php(86): App\Models\TransacoesModel->transferirSaldo()
+#9 D:\_VPS\projeto1\system\CodeIgniter.php(933): App\Controllers\Transacoes->criar()
+#10 D:\_VPS\projeto1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#11 D:\_VPS\projeto1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#12 D:\_VPS\projeto1\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 D:\_VPS\projeto1\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#14 D:\_VPS\projeto1\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#15 D:\_VPS\projeto1\system\rewrite.php(44): require_once('...')
+#16 {main}
+ERROR - 2026-01-17 12:57:28 --> mysqli_sql_exception: Unknown column 'saldo' in 'field list' in D:\_VPS\projeto1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\_VPS\projeto1\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 D:\_VPS\projeto1\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\_VPS\projeto1\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\_VPS\projeto1\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query()
+#4 D:\_VPS\projeto1\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\_VPS\projeto1\system\BaseModel.php(1010): CodeIgniter\Model->doUpdate()
+#6 D:\_VPS\projeto1\system\Model.php(860): CodeIgniter\BaseModel->update()
+#7 D:\_VPS\projeto1\app\Models\TransacoesModel.php(64): CodeIgniter\Model->update()
+#8 D:\_VPS\projeto1\app\Controllers\Transacoes.php(86): App\Models\TransacoesModel->transferirSaldo()
+#9 D:\_VPS\projeto1\system\CodeIgniter.php(933): App\Controllers\Transacoes->criar()
+#10 D:\_VPS\projeto1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#11 D:\_VPS\projeto1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#12 D:\_VPS\projeto1\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 D:\_VPS\projeto1\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#14 D:\_VPS\projeto1\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#15 D:\_VPS\projeto1\system\rewrite.php(44): require_once('...')
+#16 {main}
+CRITICAL - 2026-01-17 13:05:27 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: GET, Route: transacoes/criar]
+in APPPATH\Controllers\Transacoes.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\_VPS\\projeto1\\public\\index.php')
+ERROR - 2026-01-17 13:22:09 --> Authorization service error: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2026-01-17 13:22:38 --> Authorization service error: 60 : SSL certificate problem: unable to get local issuer certificate
+CRITICAL - 2026-01-17 13:22:38 --> Error: Call to undefined function App\Controllers\print_t()
+[Method: GET, Route: transacoes/criar]
+in APPPATH\Controllers\Transacoes.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Transacoes->criar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\_VPS\\projeto1\\public\\index.php')
+ERROR - 2026-01-17 13:22:54 --> Authorization service error: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2026-01-17 13:23:29 --> Authorization service error: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2026-01-17 13:38:12 --> Authorization service error: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2026-01-17 13:38:48 --> Authorization service error: 60 : SSL certificate problem: unable to get local issuer certificate
+ERROR - 2026-01-17 13:39:37 --> Authorization service error: 60 : SSL certificate problem: unable to get local issuer certificate
+DEBUG - 2026-01-17 13:59:36 --> Raw input: 
+DEBUG - 2026-01-17 13:59:36 --> Request headers: {"Content-Type":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+DEBUG - 2026-01-17 13:59:36 --> JSON parsed: null
+DEBUG - 2026-01-17 13:59:46 --> Raw input: 
+DEBUG - 2026-01-17 13:59:46 --> Request headers: {"Content-Type":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+DEBUG - 2026-01-17 13:59:46 --> JSON parsed: null
+DEBUG - 2026-01-17 14:00:05 --> Raw input: 
+DEBUG - 2026-01-17 14:00:05 --> Request headers: {"Content-Type":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{}}
+DEBUG - 2026-01-17 14:00:05 --> JSON parsed: null
+DEBUG - 2026-01-17 14:00:37 --> Raw input: {
+    "valor": 100.50,
+    "de": 1,
+    "para": 2
+}
+DEBUG - 2026-01-17 14:00:37 --> Request headers: {"Content-Type":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{},"Content-Length":{}}
+DEBUG - 2026-01-17 14:00:37 --> JSON parsed: {"valor":100.5,"de":1,"para":2}
+ERROR - 2026-01-17 14:00:39 --> Authorization service error: 60 : SSL certificate problem: unable to get local issuer certificate
+DEBUG - 2026-01-17 14:01:27 --> Raw input: {
+    "valor": 100.50,
+    "de": 1,
+    "para": 2
+}
+DEBUG - 2026-01-17 14:01:27 --> Request headers: {"Content-Type":{},"User-Agent":{},"Accept":{},"Postman-Token":{},"Host":{},"Accept-Encoding":{},"Connection":{},"Content-Length":{}}
+DEBUG - 2026-01-17 14:01:27 --> JSON parsed: {"valor":100.5,"de":1,"para":2}
+ERROR - 2026-01-17 14:01:29 --> Authorization service error: 60 : SSL certificate problem: unable to get local issuer certificate
